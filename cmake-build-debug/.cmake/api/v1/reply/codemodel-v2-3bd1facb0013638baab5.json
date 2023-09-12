@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Eulers",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Eulers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Eulers-Debug-9b20408d0d2b90e372df.json",
+					"name" : "Eulers",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/henryglover/Library/CloudStorage/GoogleDrive-henryjamesglover@gmail.com/My Drive/CLionProjects/Eulers/cmake-build-debug",
+		"source" : "/Users/henryglover/Library/CloudStorage/GoogleDrive-henryjamesglover@gmail.com/My Drive/CLionProjects/Eulers"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

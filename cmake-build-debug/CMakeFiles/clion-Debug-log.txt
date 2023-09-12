@@ -1,0 +1,18 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S "/Users/henryglover/Library/CloudStorage/GoogleDrive-henryjamesglover@gmail.com/My Drive/CLionProjects/Eulers" -B "/Users/henryglover/Library/CloudStorage/GoogleDrive-henryjamesglover@gmail.com/My Drive/CLionProjects/Eulers/cmake-build-debug"
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Darwin-Initialize.cmake:303 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake:21 (include)
+  CMakeLists.txt:4 (project)
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/henryglover/Library/CloudStorage/GoogleDrive-henryjamesglover@gmail.com/My Drive/CLionProjects/Eulers/cmake-build-debug
+
+Problems were encountered while collecting compiler information:
+	clang: error: invalid version number in '-mmacosx-version-min=13.0'
